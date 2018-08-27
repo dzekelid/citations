@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/767-easybi
 x-kinRank: "7"
 x-alexaRank: "2349"
 tags: Citations
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/citations/master/_listings/easybib/apis.md
 specificationVersion: "0.14"
 apis: []

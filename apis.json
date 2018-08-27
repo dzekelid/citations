@@ -1,0 +1,71 @@
+{
+	"name": "Streadata.io API Gallery - Citations",
+	"description": "This is a repository of citations APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/citations.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://citations.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Stack Exchange",
+			"x-api-slug": "stack-exchange",
+			"description": "After someone asks a question, members of the community propose answers. Others vote on those answers. Very quickly, the answers with the most votes rise to the top. You dont have to read through a lot of discussion to find the best answer.    Like to...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg",
+			"humanURL": "http://stackexchange.com",
+			"baseURL": "https://api.stackexchange.com//2.2",
+			"tags": "Citations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/citations/master/_listings/stack-exchange/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "EasyBib",
+			"x-api-slug": "easybib",
+			"description": "Automatic works cited and bibliography formatting for MLA, APA and Chicago/Turabian citation styles. Now supports 7th edition of MLA.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/767-easybib.jpg",
+			"humanURL": "http://www.easybib.com",
+			"baseURL": "https:///",
+			"tags": "Citations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/citations/master/_listings/easybib/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Open Science Framework",
+			"x-api-slug": "open-science-framework",
+			"description": "OSF provides free and open source project management support for researchers across the entire research lifecycle. As a collaboration tool, OSF helps researchers work on projects privately with a limited number of collaborators and make parts of their projects public, or make all the project publicly accessible for broader dissemination. As a workflow system, OSF enables connections to the many services researchers already use to streamline their process and increase efficiency. As a flexible repository, it can store and archive research data, protocols, and materials.",
+			"image": "",
+			"humanURL": "https://cos.io",
+			"baseURL": "https://test-api.osf.io//v2",
+			"tags": "Citations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/citations/master/_listings/open-science-framework/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Citations",
+	"include": [
+		{
+			"name": "Stack Exchange",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/citations/master/_listings/stack-exchange/apis.yaml"
+		},
+		{
+			"name": "EasyBib",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/citations/master/_listings/easybib/apis.yaml"
+		},
+		{
+			"name": "Open Science Framework",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/citations/master/_listings/open-science-framework/apis.yaml"
+		}
+	]
+}
